@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #fff; /* Changed text color to white */
+            line-height: 1.6;
+            background-color: #000; /* Set background color to black */
+            padding: 20px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f4f4f4;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* Projects Section */
+        #projects {
+            background-color: #111; /* Dark background for the project section */
+            padding: 40px 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+        }
+
+        #projects .projects-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #projects h2 {
+            font-size: 2rem;
+            color: #fff; /* White heading */
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #projects ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #projects ul li {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+            color: #ddd; /* Lighter text color */
+            font-weight: bold;
+        }
+
+        #projects ul li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-size: 1.5rem;
+            line-height: 1.2rem;
+        }
+
+        /* Icon for each project */
+        .project-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .project-icon {
+            width: 50px; /* Adjust size as needed */
+            height: auto;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+        </ul>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects-content">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <img src="https://media.giphy.com/media/3owyp2SViuDIGh8YoM/giphy.gif" alt="Project Icon" class="project-icon">
+                <p>Phonebook - Developed a PHP-based academic project allowing multiple users to manage and categorize contacts (e.g., Hotel, College).</p>
+            </div>
+            <div class="project-item">
+                <img src="https://media.giphy.com/media/3owyp2SViuDIGh8YoM/giphy.gif" alt="Project Icon" class="project-icon">
+                <p>WordPress - Created a WordPress site using Amazon Relational Database Service (AWS RDS) for reliable and scalable database management, enhancing the website's performance and security.</p>
+            </div>
+            <div class="project-item">
+                <img src="https://media.giphy.com/media/3owyp2SViuDIGh8YoM/giphy.gif" alt="Project Icon" class="project-icon">
+                <p>Portfolio Website - Designed and developed a personal portfolio website using HTML, CSS, JavaScript, and PHP. The site features a clean, responsive layout, smooth navigation, and dynamic content management, showcasing my web development skills and integrating social media profiles for a comprehensive online presence.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

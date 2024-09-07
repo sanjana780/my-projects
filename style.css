@@ -1,0 +1,273 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* White text for contrast */
+    line-height: 1.6;
+    background-color: black; /* Black background */
+    background-image: url('your-cool-background.gif'); /* Add a GIF or image here */
+    background-size: cover; /* Ensures the background covers the whole screen */
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed as you scroll */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent black nav bar */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Intro Section */
+#intro {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+#intro .intro-content h1 {
+    font-size: 2rem; /* Smaller font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    animation: fadeInDown 1.5s ease-out;
+}
+
+#intro .intro-content .circle {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px auto;
+    background-image: url('file:///C:/Users/dell/Desktop/img-3.jpg'); /* Local file path */
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+    
+
+#intro .intro-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-out;
+}
+
+#intro .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+#intro .social-links a:hover {
+    color: #ffd700; /* Gold on hover */
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Experience Section */
+#experience {
+    background-color: rgba(50, 50, 50, 0.9); /* Dark grey with transparency */
+    padding: 40px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+#experience h2 {
+    font-size: 2rem;
+    color: #ffd700; /* Gold for headings */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#experience h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#experience ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#experience ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+    color: #fff;
+}
+
+#experience ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #ffd700;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+
+/* Footer Styling */
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Additional Styling */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff7f50; /* Coral color on hover */
+}
+
+
+
+
+/* Experience Section */
+#experience {
+    background-color: rgba(50, 50, 50, 0.9); /* Dark grey with transparency */
+    padding: 40px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    gap: 20px;
+}
+
+/* Image Styling */
+.experience-image {
+    flex: 1;
+    max-width: 300px; /* Adjust as needed */
+}
+
+.experience-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Text Styling */
+.experience-text {
+    flex: 2;
+    text-align: left; /* Align text to the left */
+}
+
+.experience-text h2 {
+    font-size: 1.25rem; /* Smaller font size */
+    color: #ffd700; /* Gold for headings */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.experience-text h3 {
+    font-size: 1rem; /* Smaller font size */
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.experience-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience-text ul li {
+    font-size: 0.9rem; /* Smaller font size */
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    color: #fff;
+}
+
+.experience-text ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #ffd700;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+
+
+    body {
+        background-image: url('https://media.giphy.com/media/3YKEA2gTCbZMoMWbKk/giphy.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+
+
+    .project-icon {
+        width: 100px; /* Adjust size as needed */
+        height: auto;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    .project-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    

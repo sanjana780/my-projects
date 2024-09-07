@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #fff; /* Set text color to white */
+            line-height: 1.6;
+            background-color: #000; /* Set background color to black */
+            padding: 20px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f4f4f4;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* Education Section */
+        #education {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #111; /* Darker background for contrast */
+            padding: 40px 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+        }
+
+        #education .gif-container {
+            flex: 1;
+        }
+
+        #education .gif-container img {
+            width: 100%;
+            max-width: 300px; /* Limit the size of the GIF */
+            border-radius: 10px;
+        }
+
+        #education .education-content {
+            flex: 2;
+            margin-left: 40px;
+        }
+
+        #education h2 {
+            font-size: 2rem;
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        #education ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #education ul li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            padding-left: 30px;
+            position: relative;
+            color: #ddd; /* Light text for contrast */
+            font-weight: bold;
+        }
+
+        #education ul li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-size: 1.5rem;
+            line-height: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+        </ul>
+    </nav>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="gif-container">
+            <img src="https://media.giphy.com/media/l2SpXaJA67JaSqSxq/giphy.gif" alt="Education GIF">
+        </div>
+        <div class="education-content">
+            <h2>Education</h2>
+            <ul>
+                <li>Secondary education (2018) - Janta Girls Sr. Sec. School</li>
+                <li>Senior High Secondary Education (2020) - S.S. Jain Subodh Girls Sr. Sec. School</li>
+                <li>BCA (2023) - Agarwal PG College</li>
+                <li>MCA (Present) - Manipal University</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
